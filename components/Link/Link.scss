@@ -1,0 +1,11 @@
+.link {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 1em;
+  color: #9fa6ac;
+  transition: all 0.5s;
+  cursor: pointer;
+  &:hover {
+    color: #ff6247;
+  }
+}

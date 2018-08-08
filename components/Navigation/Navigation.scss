@@ -1,0 +1,55 @@
+.navigation {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: #343a40;
+  height: 80px;
+  padding: 0 1.5em;
+  transition: all 0.4s ease-in-out;
+  @media screen and (max-width: 600px) {
+    flex-direction: row;
+    place-items: center;
+    height: 100px;
+  }
+}
+
+.nav-items {
+  flex: 1 1 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  @media screen and (max-width: 600px) {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+.links,
+.phone-numbers {
+  display: flex;
+  @media screen and (max-width: 600px) {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    place-items: center;
+  }
+}
+.links {
+  justify-content: flex-end;
+}
+
+.phone-numbers {
+  .phone-number:first-child {
+    margin-right: 1em;
+  }
+}
+.icon {
+  display: none;
+  font-size: 2em;
+  color: #ff6247;
+  @media screen and (max-width: 600px) {
+    display: flex;
+  }
+}

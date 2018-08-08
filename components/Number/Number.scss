@@ -1,0 +1,10 @@
+.phone-number {
+  color: #ff6247;
+  display: inline-block;
+  text-decoration: none;
+
+  &:hover {
+    color: #ff6247;
+    text-decoration: underline;
+  }
+}
